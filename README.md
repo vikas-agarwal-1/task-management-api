@@ -297,43 +297,42 @@ Content-Type: application/json
 ## 📁 Project Structure
 ```
 task-management-api/
-├── src/
-│   ├── config/
-│   │   ├── database.js          # Database connection
-│   │   └── swagger.js            # API documentation config
-│   ├── controllers/
-│   │   ├── authController.js     # Authentication logic
-│   │   ├── seedController.js     # Admin seeding
-│   │   ├── taskController.js     # Task management
-│   │   └── userController.js     # User management
-│   ├── middlewares/
-│   │   ├── auth.js               # JWT authentication
-│   │   ├── authorize.js          # Role-based authorization
-│   │   ├── errorHandler.js       # Error handling
-│   │   └── rateLimiter.js        # Rate limiting
-│   ├── models/
-│   │   ├── User.js               # User schema
-│   │   ├── Task.js               # Task schema
-│   │   └── TokenBlacklist.js     # Token blacklist schema
-│   ├── routes/
-│   │   ├── authRoutes.js         # Auth endpoints
-│   │   ├── seedRoutes.js         # Seed endpoints
-│   │   ├── taskRoutes.js         # Task endpoints
-│   │   └── userRoutes.js         # User endpoints
-│   ├── services/
-│   │   └── emailService.js       # Email service
-│   ├── utils/
-│   │   ├── customError.js        # Custom error class
-│   │   └── jwt.js                # JWT utilities
-│   └── validators/
-│       ├── authValidator.js      # Auth validation
-│       ├── taskValidator.js      # Task validation
-│       └── userValidator.js      # User validation
-├── .env                          # Environment variables
-├── .gitignore                    # Git ignore file
-├── package.json                  # Dependencies
-├── README.md                     # Documentation
-└── server.js                     # Entry point
+├── config/
+│   ├── database.js          # Database connection
+│   └── swagger.js            # API documentation config
+├── controllers/
+│   ├── authController.js     # Authentication logic
+│   ├── seedController.js     # Admin seeding
+│   ├── taskController.js     # Task management
+│   └── userController.js     # User management
+├── middlewares/
+│   ├── auth.js               # JWT authentication
+│   ├── authorize.js          # Role-based authorization
+│   ├── errorHandler.js       # Error handling
+│   └── rateLimiter.js        # Rate limiting
+├── models/
+│   ├── User.js               # User schema
+│   ├── Task.js               # Task schema
+│   └── TokenBlacklist.js     # Token blacklist schema
+├── routes/
+│   ├── authRoutes.js         # Auth endpoints
+│   ├── seedRoutes.js         # Seed endpoints
+│   ├── taskRoutes.js         # Task endpoints
+│   └── userRoutes.js         # User endpoints
+├── services/
+│   └── emailService.js       # Email service
+├── utils/
+│   ├── customError.js        # Custom error class
+│   └── jwt.js                # JWT utilities
+├── validators/
+│   ├── authValidator.js      # Auth validation
+│   ├── taskValidator.js      # Task validation
+│   └── userValidator.js      # User validation
+├── .env                      # Environment variables
+├── .gitignore                # Git ignore file
+├── package.json              # Dependencies
+├── README.md                 # Documentation
+└── server.js                 # Entry point
 ```
 
 ## 💡 Design Decisions
