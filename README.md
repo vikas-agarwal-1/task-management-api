@@ -139,7 +139,6 @@ Email: admin@taskmanagement.com
 Password: Admin@1234
 ```
 
-**⚠️ Important**: Change this password immediately after first login!
 
 ## 📚 API Documentation
 
@@ -413,7 +412,6 @@ heroku open
 
 ### Production Checklist
 
-- [ ] Change default admin password
 - [ ] Use strong JWT_SECRET
 - [ ] Configure production database
 - [ ] Set up production email service
